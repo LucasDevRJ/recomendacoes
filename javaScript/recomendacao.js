@@ -16,6 +16,9 @@ let pessoa = {
 
 pessoas.push(pessoa);
 
+foto.src = pessoas[0].foto;
+nome.textContent = pessoas[0].nome;
+
 pessoa = {
 	foto : "imagens/glauber-peterson.jpeg",
 	nome : "Glauber Peterson",
@@ -25,15 +28,22 @@ pessoa = {
 
 pessoas.push(pessoa);
 
-function troca() {
-	if (cliques == 0) {
-		foto.src = pessoas[0].foto;
-		nome.textContent = pessoas[0].nome;
-	} 
+pessoa = {
+	foto : "imagens/cecilia-rodrigues.jpeg",
+	nome : "Cecília Rodrigues",
+	cargo : "Desenvolvedora",
+	depoimento : "Lucas e eu estamos desenvolvendo um projeto em conjunto e durante esse periodo, ele sempre demonstrou alta disponibilidade e abertura para novas ideias. É entusiasmado, se coloca a disposição para ajudar os colegas, está sempre disposto a aprender e evoluir. Estou entusiasmada para ve-lô alcançar seus objetivos."
+}
 
+pessoas.push(pessoa);
+
+
+function troca() {
 	if (cliques == 1) {
 		foto.src = pessoas[1].foto;
 		nome.textContent = pessoas[1].nome;
+	} else if (cliques == 2) {
+
 	}
 	cliques++;
 }
