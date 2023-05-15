@@ -1,5 +1,6 @@
 body {
 	background-color: #FFFFE0;
+	font-family: 'Brush Script MT', cursive;
 }
 
 .caixa {
@@ -11,6 +12,7 @@ body {
 
 #caixa-recomendacao {
 	background-color: #AFEEEE;
+	border-radius: 5px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -25,10 +27,20 @@ body {
 }
 
 #seta-direita {
+	cursor: pointer;
 	width: 5%;
 }
 
 #depoimento {
 	background-color: #FFFFF0;
+	border-radius: 5px;
 	padding: 20px;
+}
+
+#depoimento:before {
+	content: '"';
+}
+
+#depoimento:after {
+	content: '"';
 }
