@@ -11,7 +11,9 @@ body {
 
 #caixa-recomendacao {
 	background-color: #AFEEEE;
+	border-style: outset;
 	border-radius: 5px;
+	border-color: #4682B4;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
