@@ -7,7 +7,7 @@ let cliques = 0;
 
 let pessoas = [];
 
-function geraDepoimentos() {
+function criaPessoas() {
 	let pessoa = {
 		foto : "imagens/camila-pessoa.jpeg",
 		nome : "Camila Pessôa",
@@ -50,7 +50,7 @@ function geraDepoimentos() {
 	pessoas.push(pessoa);
 }
 
-function troca() {
+function geraDepoimento() {
 	cliques++;
 	if (cliques == 1) {
 		foto.src = pessoas[1].foto;
@@ -69,10 +69,10 @@ function troca() {
 		depoimento.textContent = pessoas[3].depoimento;
 	} else if (cliques > 3) {
 		cliques = 0;
-		geraDepoimentos();
-	} 
+		criaPessoas();
+	}
 }
 
-geraDepoimentos();
+criaPessoas();
 
-setaDireita.onclick = troca;
+setaDireita.onclick = geraDepoimento;
