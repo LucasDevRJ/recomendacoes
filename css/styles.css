@@ -8,3 +8,10 @@ body {
 	align-items: center;
 	height: 600px;
 }
+
+#caixa-depoimento {
+	background-color: #AFEEEE;
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
