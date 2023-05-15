@@ -7,7 +7,6 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 600px;
 }
 
 #caixa-recomendacao {
@@ -43,4 +42,24 @@ body {
 
 #depoimento:after {
 	content: '"';
+}
+
+@media screen and (min-width: 280px) and (max-width: 456px) {
+	#foto {
+		width: 40%;
+	}
+
+	#seta-direita {
+		width: 15%;
+	}
+}
+
+@media screen and (min-width: 457px) and (max-width: 1280px) {
+	#foto {
+		width: 24%;
+	}
+
+	#seta-direita {
+		width: 9%;
+	}
 }
