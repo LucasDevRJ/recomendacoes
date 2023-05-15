@@ -9,9 +9,26 @@ body {
 	height: 600px;
 }
 
-#caixa-depoimento {
+#caixa-recomendacao {
 	background-color: #AFEEEE;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	width: 50%;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+}
+
+#foto {
+	width: 20%;
+	border-radius: 100%;
+}
+
+#seta-direita {
+	width: 5%;
+}
+
+#depoimento {
+	background-color: #FFFFF0;
+	padding: 20px;
 }

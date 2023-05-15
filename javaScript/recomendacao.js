@@ -19,7 +19,7 @@ function criaPessoas() {
 
 	foto.src = pessoas[0].foto;
 	nome.textContent = pessoas[0].nome;
-	titulo.textContent = pessoas[0].titulo;
+	titulo.textContent = pessoas[0].cargo;
 	depoimento.textContent = pessoas[0].depoimento;
 
 	pessoa = {
@@ -55,17 +55,17 @@ function geraDepoimento() {
 	if (cliques == 1) {
 		foto.src = pessoas[1].foto;
 		nome.textContent = pessoas[1].nome;
-		titulo.textContent = pessoas[1].titulo;
+		titulo.textContent = pessoas[1].cargo;
 		depoimento.textContent = pessoas[1].depoimento;
 	} else if (cliques == 2) {
 		foto.src = pessoas[2].foto;
 		nome.textContent = pessoas[2].nome;
-		titulo.textContent = pessoas[2].titulo;
+		titulo.textContent = pessoas[2].cargo;
 		depoimento.textContent = pessoas[2].depoimento;
 	} else if (cliques == 3) {
 		foto.src = pessoas[3].foto;
 		nome.textContent = pessoas[3].nome;
-		titulo.textContent = pessoas[3].titulo;
+		titulo.textContent = pessoas[3].cargo;
 		depoimento.textContent = pessoas[3].depoimento;
 	} else if (cliques > 3) {
 		cliques = 0;
