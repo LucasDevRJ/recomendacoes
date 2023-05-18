@@ -5,6 +5,8 @@
 ## Sobre
 O projeto "Recomendações" é uma homenagem, desenvolvida com HTML, CSS e JavaScript, para os meus amigos que me recomendaram no Linkedin. O projeto possui um carrossel feito em JavaScript com as recomendações, junto as pessoas, com o nome, cargo e a foto. Além disso, possui responsividade para dispositivos mobile e tablets. 
 
+https://github.com/LucasDevRJ/recomendacoes/assets/95040236/7cd965d3-93af-48f7-bbb6-db73f577b2b7
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20Finalizado&color=GREEN&style=for-the-badge)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Desenvolvedor&message=%20LucasDevRJ&color=GREEN&style=for-the-badge)
 
